@@ -1,109 +1,42 @@
-
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
-    <title>Atlas ptaków</title>
-    <meta charset="UTF-8" />
-    <meta name="keywords" content="ptaki, dzwieki, atlas" />
-    <meta name="description" content="AtlasPtakow" />
-    <meta name="author" content="Maksymilian Spałek" />
-    <meta name="robots" content="all" />
     <meta charset="UTF-8">
+    <meta name="keywords" content="fizyka, pęd" />
+    <meta name="description" content="Zasada zachowania pędu." />
+    <meta name="author" content="Maksymilian Spałek" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atlas Ptaków</title>
+    <title>Zasada zachowania pędu</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: rgba(19, 209, 82, 0);
-            color: rgb(0, 0, 0); 
+            h1 {
+        text-align: center;
+        color: rgb(64, 158, 201)
         }
-        h1 {
+        body{
             text-align: center;
-            color: rgb(201, 64, 64);
+            font-family: Arial, Helvetica, sans-serif;
+            color: blueviolet;
+            background-color: rgb(129, 158, 100);
         }
-        .bird {
-            text-align: center;
-            margin: 20px;
+        #nav:hover{
+            background-color: chocolate;
         }
-        figure {
-            display: inline-block;
-            margin: 20px;
-            text-align: center;
+        .video{
+            border: 5px solid rgba(255, 0, 0, 0.548); 
+            width: 530px;
+            height: 299px;
         }
-        figcaption {
-            color: rgb(27, 184, 137);
-        }
-        audio {
-            margin-top: 10px;
-        }
-        img {
-            border: 2px solid rgb(255, 0, 0); 
-        }
+        
     </style>
 </head>
 <body>
+        <h1 id="nav">Zasada zachowania pędu</h1>
 
-    <h1>Atlas Ptaków</h1>
-
-    <section class="bird">
-        <figcaption>Gil - Pyrrhula pyrrhula</figcaption>
-        <figure>
-            <img src="gil.jpg" alt="Gil" width="300">
-                 </figure>
-        <p>Gil jest średniej wielkości ptakiem z rodziny łuszczaków, rozpoznawany po czerwonej piersi u samców.</p>
-        <audio controls>
-            <source src="gil.mp3" type="audio/mpeg">
-            Twoja przeglądarka nie obsługuje elementu audio.
-        </audio>
-    </section>
-
-    <section class="bird">
-        <figcaption>Szpak - Sturnus vulgaris</figcaption>
-        <figure>
-            <img src="szpak.jpg" alt="Szpak" width="300">
-        </figure>
-        <p>Gatunek średniej wielkości ptaka z rodziny szpakowatych. Częściowo wędrowny.</p>
-        <audio controls>
-            <source src="szpak.mp3" type="audio/mpeg">
-            Twoja przeglądarka nie obsługuje elementu audio.
-        </audio>
-    </section>
-
-    <section class="bird">
-        <figcaption>Wilga - Oriolus oriolus</figcaption>
-        <figure>
-            <img src="wilga.jpg" alt="Wilga" width="300">
-        </figure>
-        <p>Wilga jest znana z charakterystycznego żółtego upierzenia i melodyjnego śpiewu.</p>
-        <audio controls>
-            <source src="wilga.mp3" type="audio/mpeg">
-            Twoja przeglądarka nie obsługuje elementu audio.
-        </audio>
-    </section>
-
-    <section class="bird">
-        <figcaption>Śpiewak - Turdus philomelos</figcaption>
-        <figure>
-            <img src="spiewak.jpg" alt="Śpiewak" width="300">
-        </figure>
-        <p>Śpiewak to ptak z rodziny drozdów zamieszkujący Eurazję. Wierzch ciała brązowy o ciepłym odcieniu, kuper i pokrywy nadogonowe oliwkowe, ogon i wierzch głowy pomarańczowobrązowe.</p>
-        <audio controls>
-            <source src="spiewak.mp3" type="audio/mpeg">
-            Twoja przeglądarka nie obsługuje elementu audio.
-        </audio>
-    </section>
-
-    <section class="bird">
-        <figcaption>Jaskółka - Hirundo rustica</figcaption>
-        <figure>
-            <img src="jaskolka.jpg" alt="Jaskółka" width="300">
-        </figure>
-        <p>Jaskółki to ptaki migrujące, znane ze swojego charakterystycznego lotu.</p>
-        <audio controls>
-            <source src="jaskolka.mp3" type="audio/mpeg">
-            Twoja przeglądarka nie obsługuje elementu audio.
-        </audio>
-    </section>
-
+        <p>
+            Zasada zachowania pędu: Jeśli wyznaczymy pęd całkowity układu w pewnej chwili czasu, to w każdej następnej chwili czasu pęd układu pozostaje niezmieniony. W szczególności, jeśli pęd całkowity jest równy zeru to pozostaje on równy zeru.   
+        </p>
+        <video controls class="video">
+            <source src="Dos.mp4" type="video/mp4">
+        </video>
 </body>
 </html>
